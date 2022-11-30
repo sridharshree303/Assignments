@@ -1,0 +1,30 @@
+package introToPrblmSolving;
+
+public class PerfectNum {
+	public static void main(String[] args) {
+		System.out.println(solve(28));
+	}
+	
+	//using range until n-1 (For loop)
+	//Time Complexity: O(N)
+	//Space Complexity: O(1)
+	public static int solve(int A) {
+		int sum = 0;
+		for(int i=1; i<A; i++) {
+			int x = A/i;
+			if(x < i) {
+				break;
+			}
+			if(A % i == 0) {
+				sum = sum + i + x ;
+			}
+			
+		}
+		
+		if(sum == A) {
+			return 1;
+		}else {
+			return 0;
+		}
+	}
+}

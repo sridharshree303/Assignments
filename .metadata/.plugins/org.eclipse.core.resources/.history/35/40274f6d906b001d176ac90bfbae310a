@@ -1,0 +1,28 @@
+package introToPrblmSolving;
+
+public class CountFactors {
+	
+	public static void main(String[] args) {
+		System.out.println(solve((long) 125));
+	}
+    public static int solve(Long A) {
+    	int count = 0;
+    	long cofact = 0;
+    	for(int i=1; i <= A ; i++) {
+    		if(A % i == 0) {
+    			cofact = (int) (A / i);
+    			
+    			if(i >= cofact) {	
+        			break;
+        		}else {
+        			count++;
+        			System.out.println(count+" - "+i);
+        			count++;
+        			System.out.println(count+" - "+ cofact);
+        		}
+    		}
+    		
+    	}
+    	return count;
+    }
+}

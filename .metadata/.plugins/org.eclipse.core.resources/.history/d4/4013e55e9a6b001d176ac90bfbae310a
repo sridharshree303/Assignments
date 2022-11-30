@@ -1,0 +1,16 @@
+package introToPrblmSolving;
+
+public class SqrtNumber {
+	public static void main(String[] args) {
+		System.out.println(solve(125));
+	}
+	
+	public static int solve(int A) {
+		for(int i = 0;i <= A;i++) {
+			if(i*i == A ) {
+				return i;
+			}
+		}
+		return -1;
+	}
+}

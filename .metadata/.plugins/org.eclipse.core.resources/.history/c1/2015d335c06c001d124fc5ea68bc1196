@@ -1,0 +1,43 @@
+package introToPrblmSolving;
+
+import java.math.BigInteger;
+
+public class FindNextSmallestPalindrome {
+	public static void main(String[] args) {
+		String str = "993949349899999";
+		BigInteger number = new BigInteger(str+1) ;
+		System.out.println(number);
+		
+		String n = "1";
+		BigInteger nj = new BigInteger(n);
+		
+		
+		//int num = Integer.parseInt(number);
+		while(!verifyPalindrome(number)) {
+			System.out.println(number);
+			number = number;
+		}
+		
+		System.out.println("Next smallest palindrome : "+number);
+	}
+	
+	public static boolean verifyPalindrome(BigInteger num) {
+		int n,k, rev = 0;
+		
+		n = num;
+		
+		//reverse the number
+		while(num != 0) {
+			k = num % 10;
+			rev = (rev*10) + k;
+			num = num / 10;
+		}
+		
+		//check if num and its reverse is same or not
+		if(n == rev) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+}

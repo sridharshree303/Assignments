@@ -1,0 +1,12 @@
+package introToPrblmSolving;
+
+public class NNaturalNums {
+	public static void main(String[] args) {
+		System.out.println(sum(100)); //5050
+		System.out.println(sum(50));
+	}
+	
+	public static int sum(int A) {
+		return (A*(A+1)/2);
+	}
+}

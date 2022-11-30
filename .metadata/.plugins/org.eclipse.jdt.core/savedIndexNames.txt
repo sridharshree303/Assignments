@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\kosridha\Desktop\Learningpath\Scaler_Learning\Assignments\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1669818263.index
+3003411528.index

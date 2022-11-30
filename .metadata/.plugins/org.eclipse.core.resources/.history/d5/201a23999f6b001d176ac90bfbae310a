@@ -1,0 +1,12 @@
+package introToPrblmSolving;
+
+public class PerfectNum {
+	public static void main(String[] args) {
+		System.out.println(solve(122));
+	}
+	
+	public static int solve(int A) {
+		
+		return 0;
+	}
+}

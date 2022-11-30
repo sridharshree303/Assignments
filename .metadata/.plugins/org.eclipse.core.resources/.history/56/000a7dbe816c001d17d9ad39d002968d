@@ -1,0 +1,12 @@
+package introToPrblmSolving;
+
+public class MangoSlices {
+	public static void main(String[] args) {
+		System.out.println(solve(10,3));
+	}
+	
+	public static int solve(int A, int B) {
+		int nSlices = B+A*3;
+		return nSlices/2;
+	}
+}
