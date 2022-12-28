@@ -7,7 +7,7 @@ public class CountPairs {
 	public static void main(String[] args) {
 		char a[] = new char[]{'b','a','a','g','d','c','a','g','g'};
 		
-		System.out.println(pairCount1(a));
+		System.out.println(pairCount(a));
 	}
 	
 	//Time complexity = O(n^2)
@@ -20,7 +20,6 @@ public class CountPairs {
 				for(int j =i+1;j<n;i++) {
 					if(c[j]=='g') {
 						count++;
-						System.out.println(count);
 					}
 				}
 			}

@@ -6,8 +6,11 @@ public class Diagnoal {
 		leftToRight(arr);
 	}
 	
+	// from [0,0] to [n,n]
+	// Only if square matrix 
 	public static void leftToRight(int [][] arr) {
 		int n = arr.length;
+		
 		//TC = O(n^2)
 		//SC = O(1)
 		for(int i =0;i<n;i++) {
