@@ -13,14 +13,14 @@ public class MinimumSwaps {
 	//TWO pointer approach = 3725 ms
 	public static int solve(int[] A, int B) {
 		int n = A.length;
-		//find  the count of ele <= B in N range
+		//find  the count of elements <= B in N range
 		int size = 0;
 		for(int i=0;i<n;i++) {
 			if(A[i] <= B)
 				size++;
 		}
 		
-		//count the ele > B in the O to Size range
+		//count the elements > B in the O to Size range
 		int val = 0;
 		for(int i=0;i<size;i++) {
 			if(A[i]>B)
