@@ -5,7 +5,7 @@ public class MaxSubArray {
 		int[] aa = {4,3,2,6,8,9};
 		int b = 2;
 		int c = 6;
-		
+		System.out.println(35416%7); //3
 		System.out.println(maxSub1(aa, b, c));
 	}
 	

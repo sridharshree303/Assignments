@@ -1,6 +1,6 @@
 package t1_IntroToPrblmSolving;
 
-// If the number of factors one, then it is a prime Number.
+// If the number of factors less than 2, then it is a prime Number.
 public class CountPrimes {
 	public static void main(String[] args) {
 		System.out.println(solve(191));
