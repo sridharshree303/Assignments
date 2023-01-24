@@ -2,7 +2,7 @@ package t3_Arrays_InterviewPrblms1;
 
 public class JosephusPrblm {
 	public static void main(String[] args) {
-		System.out.println(solve1(120));
+		System.out.println(solve1(64));
 	}
 	//TC = O(1)
 	public static int solve(int n) {
