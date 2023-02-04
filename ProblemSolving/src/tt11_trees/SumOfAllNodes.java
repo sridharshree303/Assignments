@@ -1,6 +1,11 @@
 package tt11_trees;
 
 public class SumOfAllNodes {
+	
+	public static void main(String[] args) {
+		TreeNode node = BinaryTree.binaryTreeSample();
+		
+	}
 	//Time complexity = 0(n)
 	//Space complexity = O(n
 	public int sumNodes(TreeNode root) {

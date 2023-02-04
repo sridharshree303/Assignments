@@ -66,7 +66,7 @@ public class LinkedList {
 		 */
 		if (head == null) {
 			head = new Node(new_data);
-			return;
+			return ;
 		}
 
 		/*
@@ -76,8 +76,10 @@ public class LinkedList {
 
 		/* 5. Else traverse till the last node */
 		Node last = head;
+	
 		while (last.next != null)
 			last = last.next;
+	
 
 		/* 6. Change the next of last node */
 		last.next = new_node;
@@ -122,7 +124,7 @@ public class LinkedList {
 		// 1->7->8->6->4->NUllist
 		llist.insertAfter(llist.head.next, 8);
 
-		System.out.println("\nCreated Linked list is: ");
+		System.out.println("Created Linked list is: ");
 		llist.printList();
 	}
 

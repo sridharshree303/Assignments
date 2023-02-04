@@ -9,9 +9,9 @@ public class C1_StringIntro {
 		char[] a = str.toCharArray();
 		int n = a.length;
 		for(int i=0;i<n;i++) {
-			a[i] = (char) (a[i]^(1<<5));
+			a[i] = (char) (a[i]^(1<<5)); //sRIdHaR
 		}
-		return "";
+		return new String(a);
 	}
 }
 

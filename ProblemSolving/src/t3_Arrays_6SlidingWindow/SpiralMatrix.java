@@ -58,7 +58,7 @@ public class SpiralMatrix {
             i++;
             j++;
             N = N-2;
-            System.out.println(i+"--"+j+"--"+N);
+            //System.out.println(i+"--"+j+"--"+N);
             //edge case
             if(N==1){
                 ans[i][j] = n;

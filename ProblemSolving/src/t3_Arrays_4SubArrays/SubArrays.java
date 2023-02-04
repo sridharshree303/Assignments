@@ -6,8 +6,8 @@ import java.util.Arrays;
 public class SubArrays {
 	public static void main(String[] args) {
 		int arr[] = {1,3,2,7};
-		printSubarrays(arr);
-		//printSubarraySum(arr);
+//		printSubarrays(arr);
+		printSubarraySum(arr);
 		//System.out.println(maxSubbarray(arr));
 	}
 	

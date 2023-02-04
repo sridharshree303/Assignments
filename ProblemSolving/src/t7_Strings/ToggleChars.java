@@ -7,7 +7,7 @@ public class ToggleChars {
 	}
 	
 	//TC = O(n)
-	//SC = O(1)
+	//SC = O(n)
 	public static String solve(String str) {
 		StringBuilder sb = new StringBuilder(str);
 		int n = str.length();
@@ -17,4 +17,5 @@ public class ToggleChars {
 		}
 		return sb.toString();
 	}
+	
 }
