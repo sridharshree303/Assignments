@@ -2,9 +2,11 @@ package t4_BitManipulations2;
 
 public class NoOfBits {
 	public static void main(String[] args) {
-		System.out.println(numOfBits(6));
+		System.out.println(numOfBits(7));
 	}
 	
+	//TC = O(log n)
+	//SC = O(1)
 	public static int numOfBits(int A) {
 		int count=0;
 		//Approach-1

@@ -2,7 +2,7 @@ package t4_BitManipulations;
 
 public class AnyBaseToDec {
 	public static void main(String[] args) {
-		System.out.println(solve(12,3));
+		System.out.println(solve(13,2));
 	}
 	
 	//Convert any decimal to Base
@@ -17,4 +17,7 @@ public class AnyBaseToDec {
 		}
 		return opt;
 	}
+	
+	//solve(12,3) -- 110
+	//solve(13,2) -- 1101
 }
