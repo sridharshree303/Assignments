@@ -10,8 +10,8 @@ public class FindFloor {
 	//Total iteration = sqrt(n)
 	public static int floor(int value) {
 		for(int i= 1; i <= value; i++) {
-			if(i*i < value) {
-				return i;
+			if(i*i > value) {
+				return i-1;
 			}
 		}
 		return 0;

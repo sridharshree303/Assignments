@@ -18,12 +18,12 @@ public class ModGoogleArray {
 		int B = 52;
 
 		long exp = 1;
-		int ans = 0;
+		long ans = 0;
 
 		for (int i = n; i >= 0; i--) {
-			ans = (int) ((ans % B) + ((A[i] * exp )% B) % B);
+			ans = (ans +(A[i] * exp ))%B;
 			exp = (exp * 10) % B;
 		}
-		System.out.println(ans % B);
+		System.out.println(ans);
 	}
 }
